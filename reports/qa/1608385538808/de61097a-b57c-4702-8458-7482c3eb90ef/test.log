@@ -1,0 +1,9 @@
+[2020-12-19 10:45:41] [IMessager.java] [17] [INFO]  TEST [GSMA0001 - Default test - testSearchProduct] STARTED at [10:45:41 2020-12-19]
+[2020-12-19 10:45:41] [AbstractCapabilities.java] [17] [INFO] Set Chrome language to: en_US
+[2020-12-19 10:45:47] [DesktopFactory.java] [17] [INFO] Browser window was maximized
+[2020-12-19 10:45:47] [IMessager.java] [17] [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+[2020-12-19 10:45:50] [DriverListener.java] [17] [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+[2020-12-19 10:45:51] [DriverListener.java] [17] [INFO] Element clicked
+[2020-12-19 10:45:53] [DriverListener.java] [17] [INFO] Text 'iphone' typed
+[2020-12-19 10:45:55] [DriverListener.java] [17] [INFO] Element clicked
+[2020-12-19 10:45:56] [IMessager.java] [17] [INFO]  TEST [GSMA0001 - Default test - testSearchProduct] PASSED at [10:45:56 2020-12-19]

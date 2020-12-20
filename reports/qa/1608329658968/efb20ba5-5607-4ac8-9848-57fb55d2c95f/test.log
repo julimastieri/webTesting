@@ -1,0 +1,3 @@
+[2020-12-18 07:15:02] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-12-18 07:15:02] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testSearchByBrand] PASS [screenshots=./1608329658968/6430afa5-6f24-4270-85a8-7375c230e867/report.html | log=./1608329658968/6430afa5-6f24-4270-85a8-7375c230e867/test.log]
+[2020-12-18 07:15:02] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - testSearchByBrand [L0002]] PASS [screenshots=./1608329658968/a87fcd8b-cb70-4239-b426-c53f6e9ee559/report.html | log=./1608329658968/a87fcd8b-cb70-4239-b426-c53f6e9ee559/test.log]

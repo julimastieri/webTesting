@@ -1,0 +1,5 @@
+[2020-12-13 04:59:15] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-12-13 04:59:15] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - createUser] FAIL [log=./1607889551223/2fadae3a-3516-4ed9-a568-9d4cae2b1877/test.log]
+[2020-12-13 04:59:15] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - createUserPreference] SKIP [log=./1607889551223/c78c4661-ea86-495b-86a1-007861f2cb2e/test.log]
+[2020-12-13 04:59:15] [IMessager.java] [1] [INFO] RESULT #3: TEST [Default test - updateUser] SKIP [log=./1607889551223/1ec311c8-67e4-4f28-b41b-5b7b79b15a08/test.log]
+[2020-12-13 04:59:15] [IMessager.java] [1] [INFO] RESULT #4: TEST [Default test - deleteUser] SKIP [log=./1607889551223/1d426847-be83-41f9-89bf-def66a9a6655/test.log]

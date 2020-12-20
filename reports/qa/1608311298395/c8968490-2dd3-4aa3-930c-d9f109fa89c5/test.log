@@ -1,0 +1,2 @@
+[2020-12-18 02:08:36] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-12-18 02:08:36] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testSearchByBrand] FAIL [screenshots=./1608311298395/d8abb33b-e659-4240-be6d-5544483acf52/report.html | log=./1608311298395/d8abb33b-e659-4240-be6d-5544483acf52/test.log]

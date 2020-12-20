@@ -1,0 +1,10 @@
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testMuliplyOperation] PASS [log=./1607889709916/50ee6937-efa4-49a2-8a0d-0559a016bd5e/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - testMuliplyOperation [L0002]] PASS [log=./1607889709916/75d298b2-bd46-4a30-9e23-5f7fa56ee119/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #3: TEST [Default test - testMuliplyOperation [L0003]] FAIL [log=./1607889709916/4f3dcb89-26a5-47be-b384-3d769e2c3360/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #4: TEST [CLC0001 - Default test - testSumOperation] PASS [log=./1607889709916/10c7f292-9c91-4ba2-9af6-fb566a53e19e/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #5: TEST [CLC0002 - Default test - testSumOperation [L0002]] PASS [log=./1607889709916/0a8ff509-c490-49cc-876e-69e0cc7d50c8/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #6: TEST [CLC0003 - Default test - testSumOperation [L0003]] PASS [log=./1607889709916/4df4ddfd-6f85-4a3c-ab96-d90bec1d553c/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #7: TEST [CLC0001 - Default test - testSumOperationEx] PASS [log=./1607889709916/2eb523f0-391d-487b-b11e-0ea7e8e29f61/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #8: TEST [CLC0002 - Default test - testSumOperationEx [L0002]] PASS [log=./1607889709916/5e636f76-2dc4-413e-9849-ff3c5965fa8f/test.log]
+[2020-12-13 05:01:52] [IMessager.java] [1] [INFO] RESULT #9: TEST [CLC0003 - Default test - testSumOperationEx [L0003]] PASS [log=./1607889709916/c564fa16-46b9-4c4e-9836-6a7fcd6c100a/test.log]

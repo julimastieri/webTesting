@@ -1,0 +1,5 @@
+[2020-12-13 04:53:41] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-12-13 04:53:41] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testCreateUser] PASS [log=./1607889211424/59eebd3a-036f-4ec7-a9c0-998824477507/test.log]
+[2020-12-13 04:53:41] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - testCreateUserMissingSomeFields] PASS [log=./1607889211424/78ea0999-dbd5-48c8-9beb-1b76b31cb0cb/test.log]
+[2020-12-13 04:53:41] [IMessager.java] [1] [INFO] RESULT #3: TEST [Default test - testDeleteUsers] PASS [log=./1607889211424/04ec4ebd-db11-41dc-9a05-54daac2021fb/test.log]
+[2020-12-13 04:53:41] [IMessager.java] [1] [INFO] RESULT #4: TEST [Default test - testGetUsers] PASS [log=./1607889211424/de232b9f-0db6-4475-9c21-83c442a721c4/test.log]

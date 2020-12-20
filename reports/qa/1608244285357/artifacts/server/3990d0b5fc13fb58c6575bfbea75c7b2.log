@@ -1,0 +1,24 @@
+[2020-12-17T19:31:27-0300] [INFO] Capabilities are: {
+  "acceptInsecureCerts": true,
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "carinaTestRunId": "a30dd182-e9cb-43f1-8c54-da66c8cb7cb5",
+  "chrome.switches": [
+    "--start-maximized",
+    "--ignore-ssl-errors"
+  ],
+  "goog:chromeOptions": {
+    "args": [
+      "test-type",
+      "--lang=en_US"
+    ],
+    "extensions": [
+    ]
+  },
+  "name": "default",
+  "takesScreenshot": false,
+  "version": ""
+}
+[2020-12-17T19:31:27-0300] [INFO] Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+[2020-12-17T19:31:32-0300] [INFO] Detected dialect: W3C
+[2020-12-17T19:31:32-0300] [INFO] Started new session 3990d0b5fc13fb58c6575bfbea75c7b2 (org.openqa.selenium.chrome.ChromeDriverService)

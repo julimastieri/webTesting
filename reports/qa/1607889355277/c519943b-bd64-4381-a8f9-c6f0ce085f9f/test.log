@@ -1,0 +1,4 @@
+[2020-12-13 04:55:57] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-12-13 04:55:57] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testEncryption] FAIL [log=./1607889355277/c7544fc7-38b0-4345-896b-37b60346a569/test.log]
+[2020-12-13 04:55:57] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - testPlaceholdersWithEncryption] FAIL [log=./1607889355277/c6d552ff-0bc3-43b7-9a3c-778f3da6bdc1/test.log]
+[2020-12-13 04:55:57] [IMessager.java] [1] [INFO] RESULT #3: TEST [Default test - testPlaceholdersWithEncryptionTestData] FAIL [log=./1607889355277/ac978ee2-0e6e-45c1-bc0d-b129eb0413bc/test.log]

@@ -1,0 +1,4 @@
+[2020-12-13 05:00:51] [CucumberRunner.java] [1] [INFO] In  @AfterClass tearDownClass
+[2020-12-13 05:00:51] [CucumberRunner.java] [1] [INFO] Report json: cucumber-core-test-report.json
+[2020-12-13 05:00:52] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2020-12-13 05:00:52] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - feature] FAIL [log=./1607889647961/faebc957-bf5b-4a81-ada9-15059db0a67a/test.log]

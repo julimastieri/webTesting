@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-13T16:51:31 ART" name="Carina Demo Tests - API Sample" finished-at="2020-12-13T16:51:37 ART" duration-ms="6449">
+    <groups>
+    </groups>
+    <test started-at="2020-12-13T16:51:31 ART" name="User API tests" finished-at="2020-12-13T16:51:37 ART" duration-ms="6449">
+      <class name="com.qaprosoft.carina.demo.APISampleTest">
+        <test-method signature="testCreateUser()[pri:0, instance:com.qaprosoft.carina.demo.APISampleTest@6b6dce39]" started-at="2020-12-13T16:51:31 ART" name="testCreateUser" description="JIRA#DEMO-0001" finished-at="2020-12-13T16:51:36 ART" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testCreateUserMissingSomeFields()[pri:0, instance:com.qaprosoft.carina.demo.APISampleTest@6b6dce39]" started-at="2020-12-13T16:51:31 ART" name="testCreateUserMissingSomeFields" description="JIRA#DEMO-0002" finished-at="2020-12-13T16:51:35 ART" duration-ms="4564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserMissingSomeFields -->
+        <test-method signature="testDeleteUsers()[pri:0, instance:com.qaprosoft.carina.demo.APISampleTest@6b6dce39]" started-at="2020-12-13T16:51:31 ART" name="testDeleteUsers" description="JIRA#DEMO-0004" finished-at="2020-12-13T16:51:35 ART" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUsers -->
+        <test-method signature="testGetUsers()[pri:0, instance:com.qaprosoft.carina.demo.APISampleTest@6b6dce39]" started-at="2020-12-13T16:51:35 ART" name="testGetUsers" description="JIRA#DEMO-0003" finished-at="2020-12-13T16:51:37 ART" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsers -->
+      </class> <!-- com.qaprosoft.carina.demo.APISampleTest -->
+    </test> <!-- User API tests -->
+  </suite> <!-- Carina Demo Tests - API Sample -->
+</testng-results>

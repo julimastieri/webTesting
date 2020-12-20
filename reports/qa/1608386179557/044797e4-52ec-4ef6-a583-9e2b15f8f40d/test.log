@@ -1,0 +1,88 @@
+[2020-12-19 10:56:53] [IMessager.java] [17] [INFO]  TEST [Default test - testSearchProduct] STARTED at [10:56:53 2020-12-19]
+[2020-12-19 10:56:53] [IMessager.java] [17] [WARN]  TEST [Default test - testSearchProduct] SKIPPED at [10:56:53 2020-12-19] - session not created
+from chrome not reachable
+  (Session info: chrome=87.0.4280.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-Q7ODI2IC', ip: '172.22.160.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: driver.version: unknown
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0067C0C3+3326147]
+	Ordinal0 [0x00560851+2164817]
+	Ordinal0 [0x003E7140+618816]
+	Ordinal0 [0x003DD404+578564]
+	Ordinal0 [0x003DDACB+580299]
+	Ordinal0 [0x003DED35+585013]
+	Ordinal0 [0x003D9D61+564577]
+	Ordinal0 [0x003E82C0+623296]
+	Ordinal0 [0x00386BDD+224221]
+	Ordinal0 [0x00385CAC+220332]
+	Ordinal0 [0x0038189B+202907]
+	Ordinal0 [0x00363DF4+81396]
+	Ordinal0 [0x00364DEE+85486]
+	Ordinal0 [0x00364D79+85369]
+	Ordinal0 [0x005785DC+2262492]
+	GetHandleVerifier [0x00802874+1487204]
+	GetHandleVerifier [0x008023CD+1486013]
+	GetHandleVerifier [0x0080A368+1518680]
+	GetHandleVerifier [0x00802F4E+1488958]
+	Ordinal0 [0x0056ED0D+2223373]
+	Ordinal0 [0x0057A12B+2269483]
+	Ordinal0 [0x0057A26F+2269807]
+	Ordinal0 [0x0058ECB8+2354360]
+	BaseThreadInitThunk [0x7612FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x777675F4+228]
+	RtlGetAppContainerNamedObjectPath [0x777675C4+180]
+
+Command duration or timeout: 15.44 seconds
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+com.qaprosoft.carina.core.foundation.webdriver.listener.EventFiringSeleniumCommandExecutor.execute(EventFiringSeleniumCommandExecutor.java:54)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.impl.DesktopFactory.create(DesktopFactory.java:126)
+com.qaprosoft.carina.core.foundation.webdriver.core.factory.DriverFactory.create(DriverFactory.java:71)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.createDriver(IDriverPool.java:511)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:161)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:96)
+com.qaprosoft.carina.core.foundation.webdriver.IDriverPool.getDriver(IDriverPool.java:84)
+com.webTesting.SearchTest.setHomePage(SearchTest.java:23)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
+org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
+org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+java.base/java.lang.Thread.run(Thread.java:834)

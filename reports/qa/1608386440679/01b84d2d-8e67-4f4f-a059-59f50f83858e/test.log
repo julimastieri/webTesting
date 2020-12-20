@@ -1,0 +1,8 @@
+[2020-12-19 11:01:09] [AbstractCapabilities.java] [1] [INFO] Set Chrome language to: en_US
+[2020-12-19 11:01:15] [DesktopFactory.java] [1] [INFO] Browser window was maximized
+[2020-12-19 11:01:15] [IMessager.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
+[2020-12-19 11:01:22] [DriverListener.java] [1] [INFO] INFO: url 'https://www.gsmarena.com' is opened.
+[2020-12-19 11:01:23] [IMessager.java] [1] [INFO]  TEST [Default test - testSearchByBrand [L0002]] STARTED at [11:01:23 2020-12-19]
+[2020-12-19 11:01:25] [DriverListener.java] [1] [INFO] Element clicked
+[2020-12-19 11:01:26] [DriverListener.java] [1] [INFO] Element clicked
+[2020-12-19 11:01:28] [IMessager.java] [1] [INFO]  TEST [Default test - testSearchByBrand [L0002]] PASSED at [11:01:28 2020-12-19]
