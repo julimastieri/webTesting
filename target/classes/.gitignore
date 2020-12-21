@@ -1,0 +1,13 @@
+/L10N/
+/_api.properties
+/_config.properties
+/_database.properties
+/_email.properties
+/_testdata.properties
+/browserstack/
+/com/
+/crypto.key
+/logback.xml
+/mappers/
+/mybatis-config.xml
+/zafira.properties
