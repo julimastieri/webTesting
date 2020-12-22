@@ -1,6 +1,0 @@
-[2020-12-19 10:58:23] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2020-12-19 10:58:23] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testSearchByBrand] PASS [screenshots=./1608386258700/8b912f5d-f6e4-42f7-bbcd-90d9b623bf22/report.html | log=./1608386258700/8b912f5d-f6e4-42f7-bbcd-90d9b623bf22/test.log]
-[2020-12-19 10:58:23] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - testSearchByBrand [L0002]] PASS [screenshots=./1608386258700/02a6344a-ed51-4fe2-9b49-1082e8e66b1e/report.html | log=./1608386258700/02a6344a-ed51-4fe2-9b49-1082e8e66b1e/test.log]
-[2020-12-19 10:58:23] [IMessager.java] [1] [INFO] RESULT #3: TEST [GSMA0001 - Default test - testSearchProduct] PASS [screenshots=./1608386258700/54861cf1-68fa-4a7f-a7c8-4f1f5ba1ba12/report.html | log=./1608386258700/54861cf1-68fa-4a7f-a7c8-4f1f5ba1ba12/test.log]
-[2020-12-19 10:58:23] [IMessager.java] [1] [INFO] RESULT #4: TEST [GSMA0002 - Default test - testSearchProduct [L0002]] FAIL [screenshots=./1608386258700/65e015b0-92ba-408f-aecf-6564ea2ea3a5/report.html | log=./1608386258700/65e015b0-92ba-408f-aecf-6564ea2ea3a5/test.log]
-[2020-12-19 10:58:23] [IMessager.java] [1] [INFO] RESULT #5: TEST [GSMA0003 - Default test - testSearchProduct [L0003]] FAIL [log=./1608386258700/7b5e93b1-d98a-4991-868f-a26479be8978/test.log]

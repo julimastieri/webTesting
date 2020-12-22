@@ -1,5 +1,0 @@
-[2020-12-19 10:58:12] [IMessager.java] [27] [INFO]  TEST [GSMA0001 - Default test - testSearchProduct] STARTED at [10:58:12 2020-12-19]
-[2020-12-19 10:58:13] [DriverListener.java] [27] [INFO] Element clicked
-[2020-12-19 10:58:14] [DriverListener.java] [27] [INFO] Text 'iphone' typed
-[2020-12-19 10:58:18] [DriverListener.java] [27] [INFO] Element clicked
-[2020-12-19 10:58:19] [IMessager.java] [27] [INFO]  TEST [GSMA0001 - Default test - testSearchProduct] PASSED at [10:58:19 2020-12-19]

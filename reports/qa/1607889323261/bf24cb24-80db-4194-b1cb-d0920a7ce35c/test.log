@@ -1,5 +1,0 @@
-[2020-12-13 04:55:25] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
-[2020-12-13 04:55:25] [IMessager.java] [1] [INFO] RESULT #1: TEST [Default test - testOpenPage] SKIP [log=./1607889323261/8f5734ae-2254-453b-b14f-724e7b7b0d3b/test.log]
-[2020-12-13 04:55:25] [IMessager.java] [1] [INFO] RESULT #2: TEST [Default test - testOpenCompare] SKIP [log=./1607889323261/65484c89-86e6-4570-b062-c299594078c6/test.log]
-[2020-12-13 04:55:25] [IMessager.java] [1] [INFO] RESULT #3: TEST [Default test - testReadSpecs] SKIP [log=./1607889323261/9ea99086-49c3-4e2e-8796-3e346a4f8417/test.log]
-[2020-12-13 04:55:25] [IMessager.java] [1] [INFO] RESULT #4: TEST [Default test - testCompareModels] SKIP [log=./1607889323261/447a607b-f5e8-43c1-9d9d-f7901f76edb9/test.log]

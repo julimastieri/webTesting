@@ -1,4 +1,0 @@
-[2020-12-19 10:58:11] [IMessager.java] [1] [INFO]  TEST [Default test - testSearchByBrand [L0002]] STARTED at [10:58:11 2020-12-19]
-[2020-12-19 10:58:14] [DriverListener.java] [1] [INFO] Element clicked
-[2020-12-19 10:58:18] [DriverListener.java] [1] [INFO] Element clicked
-[2020-12-19 10:58:19] [IMessager.java] [1] [INFO]  TEST [Default test - testSearchByBrand [L0002]] PASSED at [10:58:19 2020-12-19]

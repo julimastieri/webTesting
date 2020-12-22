@@ -1,9 +1,0 @@
-[2020-12-19 11:01:50] [AbstractCapabilities.java] [29] [INFO] Set Chrome language to: en_US
-[2020-12-19 11:01:55] [DesktopFactory.java] [29] [INFO] Browser window was maximized
-[2020-12-19 11:01:55] [IMessager.java] [29] [INFO] INFO: url 'https://www.gsmarena.com' is being opened...
-[2020-12-19 11:01:58] [DriverListener.java] [29] [INFO] INFO: url 'https://www.gsmarena.com' is opened.
-[2020-12-19 11:01:59] [IMessager.java] [29] [INFO]  TEST [GSMA0002 - Default test - testSearchProduct [L0002]] STARTED at [11:01:59 2020-12-19]
-[2020-12-19 11:02:00] [DriverListener.java] [29] [INFO] Element clicked
-[2020-12-19 11:02:01] [DriverListener.java] [29] [INFO] Text 'galaxy' typed
-[2020-12-19 11:02:03] [DriverListener.java] [29] [INFO] Element clicked
-[2020-12-19 11:02:04] [IMessager.java] [29] [INFO]  TEST [GSMA0002 - Default test - testSearchProduct [L0002]] PASSED at [11:02:04 2020-12-19]
