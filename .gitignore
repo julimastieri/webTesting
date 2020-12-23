@@ -1,1 +1,4 @@
 /target/
+/test-output/
+/reports/
+src/main/resources/crypto.key

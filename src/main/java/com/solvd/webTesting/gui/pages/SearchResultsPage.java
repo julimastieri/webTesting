@@ -5,17 +5,34 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SearchResultsPage extends GSMArenaAbstractPage {
+public class SearchResultsPage extends BHAbstractPage {
+	private final static String PRODUCT_XPATH = "//span[text()='%s']";
 	
-	@FindBy(className = "article-info-name")
-	private WebElement searchTitle;
+	@FindBy(xpath = "//strong")
+	WebElement resultsTitle;
 
 	public SearchResultsPage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	
-	public String getSearchTitle() {
-		return searchTitle.getText();
+	private WebElement findProductLink(String product) {
+		return findByXpath(PRODUCT_XPATH, product);
 	}
+	
+	public String getProductTitle(String productName) {
+		WebElement productLink = findProductLink(productName);
+		return productLink.getText();
+	}
+	
+	public ProductPage clickOnProduct(String productName) {
+		WebElement productLink = findProductLink(productName);
+		productLink.click();
+		return new ProductPage(driver);
+	}
+	
+	public String getResultsTitle() {
+		return resultsTitle.getText();
+	}
+	
 }

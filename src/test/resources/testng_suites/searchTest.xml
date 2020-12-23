@@ -1,9 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="1" name="Web Testing -Search Tests" parallel="methods">
+<suite verbose="1" name="Web Testing -Search Tests"
+	parallel="methods">
 
 	<test name="GSM arena web tests">
 		<classes>
-			<class name="com.webTesting.SearchTest" />
+			<class name="com.webTesting.SearchTest">
+				<methods>
+					<include name="testBuyAProduct" />
+				</methods>
+			</class>
 		</classes>
 	</test>
 

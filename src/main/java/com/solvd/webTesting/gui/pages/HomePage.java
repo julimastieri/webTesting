@@ -3,21 +3,16 @@ package com.solvd.webTesting.gui.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import com.solvd.webTesting.gui.components.FooterMenu;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.solvd.webTesting.gui.components.NavigationBar;
 
-public class HomePage extends GSMArenaAbstractPage{
+public class HomePage extends BHAbstractPage{
+	private final static String CATEGORY_XPATH = "//div/a//span[text()='%s']";
 	
-	@FindBy(id = "top-bar clearfix")
+	@FindBy(id = "header")
     private NavigationBar navBar;
-	
-	@FindBy(id = "footmenu")
-    private FooterMenu footerMenu;
-
-    private WebElement brandLink;
 	
 	public HomePage(WebDriver driver) {
 		super(driver);
@@ -28,23 +23,19 @@ public class HomePage extends GSMArenaAbstractPage{
 		return navBar;
 	}
 	
-	public FooterMenu getFooterMenu() {
-		return footerMenu;
-	}
-	
 	public SearchResultsPage searchProduct(String product) {
 		navBar.search(product);
 		return new SearchResultsPage(driver);
 	}
 	
-	private void findBrandLink(String brand) {
-		brandLink = findByXpath("//div[contains(@class, 'brandmenu-v2')]//a[.='%s']", brand);
+	private WebElement findCategoryLink(String category) {
+		return findByXpath(CATEGORY_XPATH, category);
 	}
 	
-	public BrandPage selectBrand(String brand) {
-		findBrandLink(brand);
-		brandLink.click();
-		return new BrandPage(driver);
+	public CategoryPage selectCategory(String category) {
+		WebElement categoryLink = findCategoryLink(category);
+		categoryLink.click();
+		return new CategoryPage(driver);
 	}
 	
 }
