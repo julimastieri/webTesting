@@ -14,6 +14,12 @@ public class HomePage extends BHAbstractPage{
 	@FindBy(id = "header")
     private NavigationBar navBar;
 	
+	@FindBy(className = "exploraSvgWrap")
+    private WebElement exploraLink;
+	
+	@FindBy(name = "Header-Help Center")
+	private WebElement helpLink;
+	
 	public HomePage(WebDriver driver) {
 		super(driver);
 		PageFactory.initElements(driver, this);
@@ -36,6 +42,16 @@ public class HomePage extends BHAbstractPage{
 		WebElement categoryLink = findCategoryLink(category);
 		categoryLink.click();
 		return new CategoryPage(driver);
+	}
+	
+	public ExploraPage goToExplora() {
+		exploraLink.click();
+		return new ExploraPage(driver);
+	}
+	
+	public HelpCenterPage clickOnHelp() {
+		helpLink.click();
+		return new HelpCenterPage(driver);
 	}
 	
 }

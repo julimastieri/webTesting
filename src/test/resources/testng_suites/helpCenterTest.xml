@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Web Testing -Help Center Tests"
+	parallel="methods">
+
+	<test name="BH web tests">
+		<classes>
+			<class name="com.webTesting.HelpCenterTest"/>
+		</classes>
+	</test>
+
+</suite>

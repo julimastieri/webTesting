@@ -12,7 +12,8 @@ public interface ProductPageServices {
 		HomePage hp = new HomePage(driver);
 		hp.open();
 		SearchResultsPage sp = hp.searchProduct(product);
-		return sp.clickOnProduct(productName);
+		ProductPage pp = sp.clickOnProduct(productName); 
+		return pp;
 		
 	}
 

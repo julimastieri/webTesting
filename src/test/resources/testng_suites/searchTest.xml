@@ -2,7 +2,7 @@
 <suite verbose="1" name="Web Testing -Search Tests"
 	parallel="methods">
 
-	<test name="GSM arena web tests">
+	<test name="BH web tests">
 		<classes>
 			<class name="com.webTesting.SearchTest">
 				<methods>

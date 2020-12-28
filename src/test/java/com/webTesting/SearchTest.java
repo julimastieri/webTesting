@@ -1,7 +1,6 @@
 package com.webTesting;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -17,11 +16,6 @@ import com.solvd.webTesting.gui.pages.SearchResultsPage;
 import com.webTesting.services.ProductPageServices;
 
 public class SearchTest extends AbstractTest implements ProductPageServices {
-
-	@BeforeMethod
-	public void setHomePage() {
-	
-	}
 
 	@Test(description = "Search product by search bar", dataProvider = "DataProvider")
 	@MethodOwner(owner = "jmastieri")
@@ -57,7 +51,7 @@ public class SearchTest extends AbstractTest implements ProductPageServices {
 		ProductPage pp = openProductPage(this.getDriver(), "TV", "Samsung TU7000 43\" Class HDR 4K UHD Smart LED TV");
 		Assert.assertEquals(pp.getAddToCartTitle(), "1 Item Added to Your Cart");
 		CartPage cp = pp.clickOnViewCart();
-		//Assert.assertEquals(cp.getTotalItemsInCart(), "1");
+		Assert.assertEquals(cp.getTotalItemsInCart(), "1");
 		FirstStepCheckout fsc =  cp.goToCheckout();
 		Assert.assertEquals(fsc.getShippingAddressTitle(), "Shipping Address");
 		
