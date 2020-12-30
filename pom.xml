@@ -5,10 +5,10 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.qaprosoft</groupId>
-	<artifactId>carina-demo</artifactId>
+	<artifactId>webTesting</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>Carina Demo</name>
+	<name>Web Testing</name>
 	<url>http://www.qaprosoft.com/</url>
 
 	<properties>
@@ -86,6 +86,12 @@
 					<artifactId>android-json</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.3.0</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
