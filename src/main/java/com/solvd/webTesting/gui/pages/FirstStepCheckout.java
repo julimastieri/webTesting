@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class FirstStepCheckout extends BHAbstractPage{
 
 	@FindBy(xpath = "//h2[@data-selenium=\"shippingHeader\"]")
-	private WebElement shippingAddress;
+	private WebElement shippingAddressTitle;
 	
 	public FirstStepCheckout(WebDriver driver) {
 		super(driver);
@@ -16,6 +16,6 @@ public class FirstStepCheckout extends BHAbstractPage{
 	}
 	
 	public String getShippingAddressTitle() {
-		return shippingAddress.getText();
+		return shippingAddressTitle.getText();
 	}
 }

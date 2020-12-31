@@ -15,10 +15,10 @@ public class CartPage extends BHAbstractPage{
     private NavigationBar navBar;
 	
 	@FindBy(id = "loginCart")
-	private WebElement beginCheckout;
+	private WebElement beginCheckoutButton;
 	
 	@FindBy(xpath = "//button[@data-selenium='guestCheckoutBtn']")
-	private WebElement checkOutAsAGuest;
+	private WebElement checkOutAsAGuestButton;
 	
 	public CartPage(WebDriver driver) {
 		super(driver);
@@ -43,8 +43,8 @@ public class CartPage extends BHAbstractPage{
 	}
 	
 	public FirstStepCheckout goToCheckout() {
-		beginCheckout.click();
-		checkOutAsAGuest.click();
+		beginCheckoutButton.click();
+		checkOutAsAGuestButton.click();
 		return new FirstStepCheckout(driver);
 	}
 

@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class ExploraPage extends BHAbstractPage{
 	
 	@FindBy(id = "block-views-category-pages-block-1")
-	private WebElement firstPost;
+	private WebElement firstPostLink;
 	
 	@FindBy(id = "menu-6376-1")
 	private WebElement videoTab;
@@ -19,7 +19,7 @@ public class ExploraPage extends BHAbstractPage{
 	}
 	
 	public PostPage clickOnFirstPost() {
-		firstPost.click();
+		firstPostLink.click();
 		return new PostPage(driver);
 	}
 	
